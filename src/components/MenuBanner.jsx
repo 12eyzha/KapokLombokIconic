@@ -7,7 +7,7 @@ function MenuBanner() {
       }}
     >
       <img
-        src="/images/menu-banner.jpg"
+        src="/src/assets/Banner/banner2.jpg"
         alt="Menu Banner"
         style={{
           width: "100%",

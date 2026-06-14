@@ -82,20 +82,20 @@ function Navbar() {
           }}
         >
           <div
-            style={{
-              width: "150px",
-              height: "150px",
-              borderRadius: "50%",
-              overflow: "hidden",
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-              marginTop: "60px",
-              zIndex: 1001,
-            }}
-          >
+              style={{
+                width: "100px",
+                height: "100px",
+                borderRadius: "50%",
+                overflow: "hidden",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                marginTop: "20px",
+                zIndex: 1001,
+              }}
+            >
             <img
-              src="/logo.png"
+              src="src/assets/Logo/Logo.jpeg"
               alt="Kapok Lombok Logo"
               style={{
                 width: "100%",

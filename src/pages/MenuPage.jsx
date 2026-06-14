@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 import MenuBanner from "../components/MenuBanner";
 import MenuCategory from "../components/MenuCategory";
 
-import menuData from "../data/products";
+import menuData from "../data/Products";
 
 function MenuPage() {
   return (

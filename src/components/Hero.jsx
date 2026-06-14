@@ -11,14 +11,16 @@ function Hero() {
       }}
     >
       <img
-        src="https://images.unsplash.com/photo-1596797882870-8c0b6e5b6b5c?w=1600&q=80"
+        src="/src/assets/Banner/Banner1.jpg"
         alt="Rempah-rempah dan bumbu masakan pedas"
         style={{
           width: "100%",
           height: "100%",
           objectFit: "cover",
-          filter: "brightness(0.55)",
+          objectPosition: "center top",
+          filter: "brightness(0.75)",
         }}
+
         onError={(e) => {
           e.target.style.display = "none";
           e.target.parentElement.style.background =
@@ -40,13 +42,13 @@ function Hero() {
           <h1
             style={{
               fontFamily: "'Oswald', 'Poppins', sans-serif",
-              fontSize: "clamp(3rem, 7vw, 5.5rem)",
+              fontSize: "clamp(2.5rem, 5vw, 4.2rem)",
               fontWeight: 700,
               color: "#fff",
-              lineHeight: 1.1,
+              lineHeight: 1.05,
               margin: 0,
               textTransform: "uppercase",
-              letterSpacing: "-0.01em",
+              letterSpacing: "-0.02em",
               textShadow: "0 2px 20px rgba(0,0,0,0.4)",
             }}
           >

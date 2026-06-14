@@ -188,15 +188,13 @@ function AboutPage() {
                 lineHeight: 1.2,
               }}
             >
-              Ahmad Rizky
-              <br />
-              Pratama
+              Cahyo B.
             </h2>
           </div>
 
           <div>
             <img
-              src="/ceo.jpg"
+              src="/src/assets/About/Cahyok.jpeg"
               alt="CEO"
               style={{
                 width: "100%",

@@ -82,7 +82,7 @@ function Concept() {
         }}
       >
         <img
-          src="https://via.placeholder.com/120x120/A6171B/ffffff?text=KL"
+          src="src/assets/Logo/Logo.jpeg"
           alt="Kapok Lombok"
           style={{ width: "100%", height: "100%", objectFit: "cover" }}
         />
@@ -230,23 +230,29 @@ function AboutUs() {
         </div>
 
         <div
+        style={{
+          borderRadius: "12px",
+          overflow: "hidden",
+          boxShadow: "0 8px 32px rgba(0,0,0,0.12)",
+          aspectRatio: "4/3",
+        }}
+      >
+        <img
+          src="src/assets/About/KIELL.jpg"
+          alt="Toko Kapok Lombok"
           style={{
-            borderRadius: "12px",
-            overflow: "hidden",
-            boxShadow: "0 8px 32px rgba(0,0,0,0.12)",
-            aspectRatio: "4/3",
+            width: "100%",
+            height: "100%",
+            objectFit: "cover",
+            objectPosition: "15% 65%",
+            display: "block",
           }}
-        >
-          <img
-            src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&q=80"
-            alt="Toko Kapok Lombok"
-            style={{ width: "100%", height: "100%", objectFit: "cover" }}
-            onError={(e) => {
-              e.target.src =
-                "https://via.placeholder.com/600x450/A6171B/ffffff?text=Kapok+Lombok";
-            }}
-          />
-        </div>
+          onError={(e) => {
+            e.target.src =
+              "https://via.placeholder.com/600x450/A6171B/ffffff?text=Kapok+Lombok";
+          }}
+        />
+      </div>
       </div>
     </section>
   );
