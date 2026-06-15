@@ -1,3 +1,4 @@
+import Banner2 from "../assets/Banner/banner2.jpg";
 function MenuBanner() {
   return (
     <section
@@ -7,14 +8,14 @@ function MenuBanner() {
       }}
     >
       <img
-        src="/src/assets/Banner/banner2.jpg"
-        alt="Menu Banner"
-        style={{
-          width: "100%",
-          height: "100%",
-          objectFit: "cover",
-        }}
-      />
+      src={Banner2}
+      alt="Menu Banner"
+      style={{
+        width: "100%",
+        height: "100%",
+        objectFit: "cover",
+      }}
+    />
 
       <div
         style={{
