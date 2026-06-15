@@ -100,7 +100,7 @@ function Footer() {
         }}
       >
         <a
-          href="https://wa.me/6281234567890"
+          href="https://wa.me/082131178182"
           target="_blank"
           rel="noopener noreferrer"
           style={{ display: "flex", alignItems: "center", justifyContent: "center" }}
