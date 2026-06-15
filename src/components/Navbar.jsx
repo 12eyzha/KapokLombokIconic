@@ -108,14 +108,14 @@ function Navbar() {
         </Link>
 
         {/* ABOUT */}
-        <a
-            href="/about"
-            style={linkStyle}
-            onMouseEnter={(e) => (e.target.style.opacity = 0.7)}
-            onMouseLeave={(e) => (e.target.style.opacity = 1)}
+        <Link
+          to="/about"
+          style={linkStyle}
+          onMouseEnter={(e) => (e.target.style.opacity = 0.7)}
+          onMouseLeave={(e) => (e.target.style.opacity = 1)}
         >
           About
-        </a>
+        </Link>
 
         {/* FEEDBACK */}
         <Link
