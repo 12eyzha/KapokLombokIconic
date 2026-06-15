@@ -4,6 +4,9 @@ import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Products from "../components/Products";
 import Footer from "../components/Footer";
+import logo from "../assets/Logo/Logo.jpeg";
+import aboutImage from "../assets/About/KIELL.jpg";
+import bannerImage from "../assets/Banner/Banner1.jpg";
 
 function SEOMeta() {
   useEffect(() => {
@@ -94,7 +97,7 @@ function Concept() {
         }}
       >
         <img
-          src="src/assets/Logo/Logo.jpeg"
+          src={logo}
           alt="Kapok Lombok"
           style={{ width: "100%", height: "100%", objectFit: "cover" }}
         />
@@ -250,20 +253,20 @@ function AboutUs() {
         }}
       >
         <img
-          src="src/assets/About/KIELL.jpg"
-          alt="Toko Kapok Lombok"
-          style={{
-            width: "100%",
-            height: "100%",
-            objectFit: "cover",
-            objectPosition: "15% 65%",
-            display: "block",
-          }}
-          onError={(e) => {
-            e.target.src =
-              "https://via.placeholder.com/600x450/A6171B/ffffff?text=Kapok+Lombok";
-          }}
-        />
+        src={aboutImage}
+        alt="Restoran Kapok Lombok Iconic di Soekarno Hatta Malang"
+        style={{
+          width: "100%",
+          height: "100%",
+          objectFit: "cover",
+          objectPosition: "15% 65%",
+          display: "block",
+        }}
+        onError={(e) => {
+          e.target.src =
+            "https://via.placeholder.com/600x450/A6171B/ffffff?text=Kapok+Lombok";
+        }}
+      />
       </div>
       </div>
     </section>

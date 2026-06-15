@@ -1,7 +1,7 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
-
+import ceoImage from "../assets/About/Cahyok.jpeg";
 function AboutPage() {
   return (
     <>
@@ -193,15 +193,15 @@ function AboutPage() {
           </div>
 
           <div>
-            <img
-              src="/src/assets/About/Cahyok.jpeg"
-              alt="CEO"
-              style={{
-                width: "100%",
-                borderRadius: "20px",
-                objectFit: "cover",
-              }}
-            />
+           <img
+            src={ceoImage}
+            alt="Founder dan CEO Kapok Lombok"
+            style={{
+              width: "100%",
+              borderRadius: "20px",
+              objectFit: "cover",
+            }}
+          />
           </div>
 
           <div>

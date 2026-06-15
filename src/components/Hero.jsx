@@ -1,3 +1,4 @@
+import bannerImage from "../assets/Banner/Banner1.jpg";
 function Hero() {
   return (
     <section
@@ -11,7 +12,7 @@ function Hero() {
       }}
     >
       <img
-        src="/src/assets/Banner/Banner1.jpg"
+        src={bannerImage}
         alt="Banner Kapok Lombok Iconic restoran pedas di Malang"
         style={{
           width: "100%",

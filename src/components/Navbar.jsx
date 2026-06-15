@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import logo from "../assets/Logo/Logo.jpeg";
 
 function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -94,15 +95,15 @@ function Navbar() {
                 zIndex: 1001,
               }}
             >
-            <img
-              src="src/assets/Logo/Logo.jpeg"
-              alt="Kapok Lombok Logo"
-              style={{
-                width: "100%",
-                height: "100%",
-                objectFit: "contain",
-              }}
-            />
+           <img
+            src={logo}
+            alt="Logo Kapok Lombok Iconic"
+            style={{
+              width: "100%",
+              height: "100%",
+              objectFit: "contain",
+            }}
+          />
           </div>
         </Link>
 
