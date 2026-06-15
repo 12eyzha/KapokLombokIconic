@@ -66,11 +66,12 @@ function SEOMeta() {
         return l;
       })();
 
-    canonical.href = "https://kapoklombok.id";
-  }, []);
+    // Gunakan URL halaman saat ini
+    canonical.href = window.location.href;
+      }, []);
 
-  return null;
-}
+      return null;
+    }
 
 function Concept() {
   return (
