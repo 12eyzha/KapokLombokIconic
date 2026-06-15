@@ -3,7 +3,7 @@ import Footer from "../components/Footer";
 
 import MenuBanner from "../components/MenuBanner";
 import MenuCategory from "../components/MenuCategory";
-import Banner2 from "../assets/Banner/banner2.jpg";
+import Banner2 from "../assets/Banner/Banner2.jpg";
 
 import menuData from "../data/Products";
 

@@ -1,4 +1,4 @@
-import Banner2 from "../assets/Banner/banner2.jpg";
+import Banner2 from "../assets/Banner/Banner2.jpg";
 function MenuBanner() {
   return (
     <section
