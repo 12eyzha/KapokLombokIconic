@@ -7,7 +7,8 @@ import Footer from "../components/Footer";
 
 function SEOMeta() {
   useEffect(() => {
-    document.title = "Kapok Lombok – Kuliner Pedas Modern Malang";
+    document.title =
+      "Kapok Lombok Iconic | Restoran Pedas di Soekarno Hatta Malang";
 
     const setMeta = (name, content, prop = false) => {
       const attr = prop ? "property" : "name";
@@ -24,23 +25,34 @@ function SEOMeta() {
 
     setMeta(
       "description",
-      "Kapok Lombok Iconic – Brand kuliner pedas modern di Malang. Nikmati sensasi panas dan menggugah selera di Jl. Soekarno Hatta Indah No.C9, Mojolangu, Lowokwaru."
+      "Kapok Lombok Iconic adalah restoran Indonesia pedas di Jl. Soekarno Hatta Indah No.C9, Malang. Nikmati ayam bakar, ayam goreng, sambal khas, dan berbagai menu pedas dengan harga terjangkau."
     );
+
     setMeta(
       "keywords",
-      "kapok lombok Iconic, kuliner pedas malang, makanan pedas, restaurant malang, soekarno hatta malang"
+      "Kapok Lombok Iconic, restoran pedas Malang, kuliner pedas Malang, restoran Indonesia Malang, ayam bakar Malang, ayam goreng Malang, Soekarno Hatta Malang"
     );
+
     setMeta("robots", "index, follow");
+
     setMeta("geo.region", "ID-JI");
     setMeta("geo.placename", "Malang, Jawa Timur");
-    setMeta("og:title", "Kapok Lombok – Kuliner Pedas Modern Malang", true);
+
     setMeta(
-      "og:description",
-      "Sensasi pedas yang autentik dan menggugah selera di jantung Kota Malang.",
+      "og:title",
+      "Kapok Lombok Iconic | Restoran Pedas di Soekarno Hatta Malang",
       true
     );
+
+    setMeta(
+      "og:description",
+      "Nikmati ayam bakar, ayam goreng, sambal khas, dan berbagai menu pedas dengan harga terjangkau di Kapok Lombok Iconic Malang.",
+      true
+    );
+
     setMeta("og:type", "restaurant", true);
     setMeta("og:locale", "id_ID", true);
+    setMeta("og:site_name", "Kapok Lombok Iconic", true);
 
     const canonical =
       document.querySelector("link[rel='canonical']") ||

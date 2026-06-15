@@ -147,7 +147,7 @@ return (
           <div>
             <strong>Phone</strong>
             <p style={{ marginTop: "8px" }}>
-              +62 812-3456-7890
+              +62  822-3311-7256
             </p>
           </div>
 

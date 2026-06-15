@@ -325,12 +325,12 @@ function AboutPage() {
 
             <div>
               <p>Senin - Jumat</p>
-              <h2>10.00 - 22.00</h2>
+              <h2>11.00 - 22.00</h2>
             </div>
 
             <div>
               <p>Sabtu - Minggu</p>
-              <h2>09.00 - 23.00</h2>
+              <h2>11.00 - 22.00</h2>
             </div>
           </div>
         </section>
