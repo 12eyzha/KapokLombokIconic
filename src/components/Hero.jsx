@@ -11,13 +11,14 @@ function Hero() {
       }}
     >
       <img
-        src="https://images.unsplash.com/photo-1596797882870-8c0b6e5b6b5c?w=1600&q=80"
-        alt="Rempah-rempah dan bumbu masakan pedas"
+        src="/src/assets/Banner/Banner1.jpg"
+        alt="Banner Kapok Lombok Iconic restoran pedas di Malang"
         style={{
           width: "100%",
           height: "100%",
           objectFit: "cover",
-          filter: "brightness(0.55)",
+          objectPosition: "center top",
+          filter: "brightness(0.75)",
         }}
         onError={(e) => {
           e.target.style.display = "none";
@@ -25,6 +26,7 @@ function Hero() {
             "linear-gradient(135deg, #1a0a00 0%, #3d1500 50%, #2a0a0a 100%)";
         }}
       />
+
       <div
         style={{
           position: "absolute",
@@ -37,23 +39,39 @@ function Hero() {
         }}
       >
         <div>
+          {/* SEO Heading */}
           <h1
             style={{
+              fontFamily: "'Poppins', sans-serif",
+              fontSize: "0.95rem",
+              fontWeight: 600,
+              color: "#fff",
+              letterSpacing: "0.35em",
+              textTransform: "uppercase",
+              margin: "0 0 1rem",
+              opacity: 0.95,
+            }}
+          >
+            Kapok Lombok Iconic
+          </h1>
+
+          {/* Main Visual Headline */}
+          <div
+            style={{
               fontFamily: "'Oswald', 'Poppins', sans-serif",
-              fontSize: "clamp(3rem, 7vw, 5.5rem)",
+              fontSize: "clamp(2.5rem, 5vw, 4.2rem)",
               fontWeight: 700,
               color: "#fff",
-              lineHeight: 1.1,
-              margin: 0,
+              lineHeight: 1.05,
               textTransform: "uppercase",
-              letterSpacing: "-0.01em",
+              letterSpacing: "-0.02em",
               textShadow: "0 2px 20px rgba(0,0,0,0.4)",
             }}
           >
             TASTE IS
             <br />
             EVERYTHING
-          </h1>
+          </div>
         </div>
       </div>
     </section>

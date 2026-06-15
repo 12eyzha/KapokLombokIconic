@@ -7,7 +7,8 @@ import Footer from "../components/Footer";
 
 function SEOMeta() {
   useEffect(() => {
-    document.title = "Kapok Lombok – Kuliner Pedas Modern Malang";
+    document.title =
+      "Kapok Lombok Iconic | Restoran Pedas di Soekarno Hatta Malang";
 
     const setMeta = (name, content, prop = false) => {
       const attr = prop ? "property" : "name";
@@ -24,23 +25,34 @@ function SEOMeta() {
 
     setMeta(
       "description",
-      "Kapok Lombok Iconic – Brand kuliner pedas modern di Malang. Nikmati sensasi panas dan menggugah selera di Jl. Soekarno Hatta Indah No.C9, Mojolangu, Lowokwaru."
+      "Kapok Lombok Iconic adalah restoran Indonesia pedas di Jl. Soekarno Hatta Indah No.C9, Malang. Nikmati ayam bakar, ayam goreng, sambal khas, dan berbagai menu pedas dengan harga terjangkau."
     );
+
     setMeta(
       "keywords",
-      "kapok lombok Iconic, kuliner pedas malang, makanan pedas, restaurant malang, soekarno hatta malang"
+      "Kapok Lombok Iconic, restoran pedas Malang, kuliner pedas Malang, restoran Indonesia Malang, ayam bakar Malang, ayam goreng Malang, Soekarno Hatta Malang"
     );
+
     setMeta("robots", "index, follow");
+
     setMeta("geo.region", "ID-JI");
     setMeta("geo.placename", "Malang, Jawa Timur");
-    setMeta("og:title", "Kapok Lombok – Kuliner Pedas Modern Malang", true);
+
     setMeta(
-      "og:description",
-      "Sensasi pedas yang autentik dan menggugah selera di jantung Kota Malang.",
+      "og:title",
+      "Kapok Lombok Iconic | Restoran Pedas di Soekarno Hatta Malang",
       true
     );
+
+    setMeta(
+      "og:description",
+      "Nikmati ayam bakar, ayam goreng, sambal khas, dan berbagai menu pedas dengan harga terjangkau di Kapok Lombok Iconic Malang.",
+      true
+    );
+
     setMeta("og:type", "restaurant", true);
     setMeta("og:locale", "id_ID", true);
+    setMeta("og:site_name", "Kapok Lombok Iconic", true);
 
     const canonical =
       document.querySelector("link[rel='canonical']") ||
@@ -82,7 +94,7 @@ function Concept() {
         }}
       >
         <img
-          src="https://via.placeholder.com/120x120/A6171B/ffffff?text=KL"
+          src="src/assets/Logo/Logo.jpeg"
           alt="Kapok Lombok"
           style={{ width: "100%", height: "100%", objectFit: "cover" }}
         />
@@ -230,23 +242,29 @@ function AboutUs() {
         </div>
 
         <div
+        style={{
+          borderRadius: "12px",
+          overflow: "hidden",
+          boxShadow: "0 8px 32px rgba(0,0,0,0.12)",
+          aspectRatio: "4/3",
+        }}
+      >
+        <img
+          src="src/assets/About/KIELL.jpg"
+          alt="Toko Kapok Lombok"
           style={{
-            borderRadius: "12px",
-            overflow: "hidden",
-            boxShadow: "0 8px 32px rgba(0,0,0,0.12)",
-            aspectRatio: "4/3",
+            width: "100%",
+            height: "100%",
+            objectFit: "cover",
+            objectPosition: "15% 65%",
+            display: "block",
           }}
-        >
-          <img
-            src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&q=80"
-            alt="Toko Kapok Lombok"
-            style={{ width: "100%", height: "100%", objectFit: "cover" }}
-            onError={(e) => {
-              e.target.src =
-                "https://via.placeholder.com/600x450/A6171B/ffffff?text=Kapok+Lombok";
-            }}
-          />
-        </div>
+          onError={(e) => {
+            e.target.src =
+              "https://via.placeholder.com/600x450/A6171B/ffffff?text=Kapok+Lombok";
+          }}
+        />
+      </div>
       </div>
     </section>
   );

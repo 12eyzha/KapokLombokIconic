@@ -188,15 +188,13 @@ function AboutPage() {
                 lineHeight: 1.2,
               }}
             >
-              Ahmad Rizky
-              <br />
-              Pratama
+              Cahyo B.
             </h2>
           </div>
 
           <div>
             <img
-              src="/ceo.jpg"
+              src="/src/assets/About/Cahyok.jpeg"
               alt="CEO"
               style={{
                 width: "100%",
@@ -327,12 +325,12 @@ function AboutPage() {
 
             <div>
               <p>Senin - Jumat</p>
-              <h2>10.00 - 22.00</h2>
+              <h2>11.00 - 22.00</h2>
             </div>
 
             <div>
               <p>Sabtu - Minggu</p>
-              <h2>09.00 - 23.00</h2>
+              <h2>11.00 - 22.00</h2>
             </div>
           </div>
         </section>

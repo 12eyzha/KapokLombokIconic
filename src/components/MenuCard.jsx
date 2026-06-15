@@ -1,13 +1,11 @@
 function MenuCard({ item }) {
-  const whatsappMessage = `Halo Kapok Lombok 👋
+  const whatsappMessage = `Halo Kapok Lombok,
 
-Saya ingin memesan:
+  Saya ingin memesan ${item.name} dengan harga ${item.price}.
 
-${item.name}
-Harga: ${item.price}
+  Mohon informasi mengenai ketersediaannya.
 
-Mohon info ketersediaannya.
-Terima kasih.`;
+  Terima kasih.`;
 
   return (
     <div

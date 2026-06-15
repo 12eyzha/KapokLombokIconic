@@ -189,7 +189,7 @@ function Footer() {
             margin: 0,
           }}
         >
-          © 2024 Kapok Lombok Iconic | All Rights Reserved
+          © 2026 Kapok Lombok Iconic | All Rights Reserved
         </p>
       </div>
     </footer>
